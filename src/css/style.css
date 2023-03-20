@@ -1,0 +1,184 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  color: #457b9d;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+/* profile */
+#profile {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  background-color: #f1faee;
+}
+#profile .profile-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#profile .profile-items .profile-img {
+  width: 50%;
+}
+#profile .profile-items .profile-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+#profile .profile-items .profile-text {
+  width: 75%;
+  margin: 5em 0;
+  color: #1d3557;
+}
+#profile .profile-items .profile-text h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#profile .profile-items .profile-text p {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #457b9d;
+  font-weight: 500;
+}
+#profile .profile-items .social-media-links {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#profile .profile-items .social-media-links i {
+  font-size: 1.7rem;
+  color: #457b9d;
+  width: 100%;
+  height: 100%;
+}
+
+/* projects*/
+#projects {
+  width: 100%;
+}
+#projects h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 50px 0;
+  color: #1d3557;
+}
+#projects .project-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+#projects .project-items .project-img {
+  width: 90%;
+  margin: 0 auto;
+}
+#projects .project-items .project-description {
+  padding: 0 20px;
+  margin: 30px;
+}
+#projects .project-items .project-description h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1d3557;
+}
+#projects .project-items .project-description p {
+  text-align: justify;
+}
+#projects .project-items a {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1d3557;
+}
+#projects .project-items a i {
+  margin: 0 5px;
+}
+
+#contact {
+  width: 100%;
+}
+#contact .contact-items {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact-items .contact-description {
+  width: 100%;
+  padding: 5px;
+}
+#contact .contact-items .contact-description h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: #1d3557;
+}
+#contact .contact-items .contact-description p {
+  text-align: justify;
+  margin: 10px 0;
+}
+#contact .contact-items form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact-items form .name,
+#contact .contact-items form .email,
+#contact .contact-items form .message {
+  width: 100%;
+  margin: 5px 0;
+}
+#contact .contact-items form .name input,
+#contact .contact-items form .name textarea,
+#contact .contact-items form .email input,
+#contact .contact-items form .email textarea,
+#contact .contact-items form .message input,
+#contact .contact-items form .message textarea {
+  width: 100%;
+  border: 1px solid #a8dadc;
+  border-radius: 5px;
+  padding: 5px;
+}
+#contact .contact-items form .btn-send {
+  width: 80%;
+  background-color: #1d3557;
+  color: #f1faee;
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 20px 0;
+}/*# sourceMappingURL=style.css.map */
